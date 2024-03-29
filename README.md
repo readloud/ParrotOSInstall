@@ -25,3 +25,16 @@ A menu will open:
 You will need to choose the option by typing a number, such as 1 to install the core edition packages.
 
 Tested on Debian 12 (virtual machines and Docker containers).
+
+# Parrot OS Alternate Installer
+### Parrot OS installer for Debian or based distributions.
+
+Use:
+```bash
+apt update && apt install -y git bash
+git clone https://nest.parrotsec.org/build/alternate-install.git
+cd alternate-install
+chmod +x parrot-install.sh
+bash parrot-install.sh
+```
+Note: Run everything under **root** permissions.
